@@ -1,0 +1,102 @@
+Tipado estático en Python
+.
+Para hacer que Python sea de tipado estático es necesario agregar algo de sintaxis adicional a lo aprendido, además, esta característica solo se puede aplicar a partir de la versión 3.6.
+
+# De esta manera se declara una variable, se colocan los dos puntos (:), el tipo de dato y para finalizar se usa el signo igual para asignar el valor a la variable.
+
+<variable> : <tipo_de_dato> = <valor_asignado>
+
+a: int = 5
+print(a)
+
+b: str = "Hola"
+print(b)
+
+c: bool = True
+print(c)
+Del mismo modo se puede usar esta metodología de tipado en Python a funciones adicionando el signo menos a continuación del signo mayor que para determinar el tipo de dato. Ejemplo:
+
+def <nombre_func> ( <parametro1> : <tipo_de_dato>, <parametro2> : <tipo_de_dato> ) ->  <tipo_de_dato> :
+	pass
+
+def suma(a: int, b: int) -> int :
+	return a + b
+
+print(suma(1,2))
+
+# 3
+Existe una librería de fabrica que viene preinstalada con Python que se llama typing, que es de gran utilidad para trabajar con tipado con estructuras de datos entre la versión 3.6 y 3.9, entonces:
+.
+
+from typing import Dict, List
+
+positives: List [int] = [1,2,3,4,5]
+
+users: Dict [str, int] = {
+	"argentina": 1.
+	"mexico": 34,
+	"colombia": 45,
+}
+
+countries: List[Dict[str, str]] = [
+	{
+		"name" : "Argentina",
+		"people" : "45000",
+	},
+	{
+		"name" : "México",
+		"people" : "9000000",
+	},
+	{
+		"name" : "Colombia",
+		"people" : "99999999999",
+	}
+]
+from typing import Tuple, Dict, List
+
+CoordinatesType = List[Dict[str, Tuple[int, int]]]
+
+coordinates: CoordinatesType = [
+	{
+		"coord1": (1,2),
+		"coord2": (3,5)
+	},
+	{
+		"coord1": (0,1),
+		"coord2": (2,5)
+	}
+]
+Modulo mypy
+.
+El modulo mypy se complementa con el modulo typing ya que permitirá mostrar los errores de tipado debil en Python.
+
+
+Resumen express
+Para decirle a python de qué tipo de dato será una variable utilizaremos la siguiente sintaxis:
+Ejemplos
+
+En el caso de los int :
+total: int = 120
+En el caso de los strings :
+frase: str = ‘Hola mundo’
+En el caso de los booleanos :
+hambre: bool = True
+En el caso de los float :
+velocidad: float = 48.2
+Si se fijan es siempre la misma sintaxis, primero el nombre de la variable, después su tipo y su valor.
+
+Para las estructuras de datos
+Con las listas, diccionarios y tuplas necesitaremos importar la librería typing y sus respectivos módulos, los cuales algunos son Dict, List y Tuple.
+Ejemplos
+
+Para una lista :
+edades: List[int] = [24, 18, 22]
+
+Para un **diccionario ** (primero el tipo de la llave y luego el del valor):
+poblacion: Dict[str, int] = { ‘México’: 131214372, ‘Colombia’: 50.374.000 }
+
+Para una **tupla ** declararémos el tipo de cada valor individualmente, no de manera general:
+constantes: Tuple[int, str, int, int, str] = ( 2, ‘Hola’, 4, 6, ‘Adiós’ )
+
+Ahora que sabes las bases
+Puedes replicar todo esto en cualquier otra cosa, por ejemplo al declarar los argumentos de una función, es exactamente la misma sintaxis, o al hacer una lista con diccionarios dentro, es exactamente lo mismo a anidar lo anterior.

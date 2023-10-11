@@ -1,0 +1,71 @@
+Aprendiendo los atajos de teclado de VSC
+Todas las funciones del programa están a nuestro alcance con el ratón, dentro de sus menús. Sin embargo, dependiendo lo que estemos haciendo, quitar las manos del teclado e ir al ratón, buscar y hacer clic para realizar una determinada tarea puede ser poco productivo.
+
+Microsoft ha adaptado su editor de código para facilitar su uso gracias a los atajos de teclado. Un atajo de teclado es una combinación de teclas pre-configurada para realizar una determinada acción. Estos atajos pueden ser una tecla sola (por ejemplo, las teclas F) o ser una combinación de teclas, las cuales suelen usar normalmente el Control o el Alt como lanzadores.
+
+Podemos encontrar una gran cantidad de atajos dentro de Visual Studio Code. Algunos de ellos nos permiten usar las funciones básicas del programa con mayor facilidad, como, por ejemplo:
+
+Ctrl + K + S -> abrir la lista de atajos de teclado.
+Ctrl + Shift + P -> abrir la paleta de comandos.
+Ctrl + , -> abrir los ajustes.
+Ctrl + Shift + X -> cambiar el panel de extensiones.
+Ctrl + T -> abrir el panel de búsqueda rápida universal.
+Ctrl + N -> abrir nuevo archivo.
+Ctrl + Shift + N -> abrir nueva ventana.
+Ctrl + F4 -> cerrar archivo.
+Ctrl + Shift + W -> cerrar ventana.
+F11 -> poner en pantalla completa.
+Ctrl + B -> mostrar u ocultar la barra lateral.
+También podemos aprovecharnos de estos atajos de teclado para controlar el uso de los archivos de código. Por ejemplo:
+
+Ctrl + O -> abrir archivo.
+Ctrl + S -> guardar archivo.
+Ctrl + Shift + S -> guardar archivo como
+Ctrl + Shift + T -> abrir última pestaña cerrada.
+Visual Studio Code nos facilita también una gran cantidad de atajos de teclado que nos ayudan a movernos por todo el editor de código a poder editarlo con mayor comodidad. Los más importantes son:
+
+Ctrl + C -> copiar selección o la línea que tengamos activada en esos momentos.
+Ctrl + X -> cortar selección o la línea que tengamos activada en esos momentos.
+Ctrl + V -> pegar el contenido del portapapeles.
+Ctrl + Shift + K -> borrar línea.
+Inicio -> ir al principio de la línea.
+Fin -> ir al final de la línea.
+Ctrl + Inicio -> ir al principio del archivo.
+Ctrl + Fin -> ir al final del archivo.
+Alt + arriba/abajo -> subir o bajar una línea.
+Ctrl + / -> comentar una línea.
+Shift + Alt + A -> comentar una región.
+Ctrl + K + C -> Comentar con # 
+Ctrl + ] -> añadir sangría.
+Ctrl + [ -> quitar sangría.
+Ctrl + P -> ir a un archivo.
+Ctrl + G -> ir a una línea.
+Ctrl + T -> mostrar todos los símbolos.
+Ctrl + Shift + O -> ir a un símbolo.
+F8 -> ir al siguiente warning del compilador.
+Shift +F8 -> ir al anterior warning del compilador.
+Ctrl + Shift + M -> mostrar el panel de problemas.
+Ctrl + -> dividir el editor.
+Ctrl + 1/2/3 -> abrir uno de los editores.
+Ctrl + Shift + Avpag -> mover editor abajo.
+Ctrl + Shift + Repag -> mover editor arriba.
+Y, por supuesto, VSC nos mostrará una serie de atajos de teclado que nos ayudarán a editar el código con mayor facilidad. Entre otros, podemos destacar:
+
+Ctrl + F -> abrir el panel de búsqueda.
+Ctrl + H -> abrir el panel de reemplazar.
+Ctrl + Shift + H -> reemplazar en archivos.
+F3 -> buscar siguiente.
+Shift + F3 -> buscar anterior.
+Alt + Enter -> seleccionar todas las coincidencias de un mismo término.
+Ctrl + D -> añadir la selección actual a la búsqueda.
+Ctrl + L -> seleccionar línea actual.
+Ctrl + Shift + L -> seleccionar todas las líneas de la sección actual.
+Ctrl + F2 -> seleccionar todas las coincidencias de una palabra actual.
+Shift + Alt + Right Arrow -> expandir selección.
+Shift + Alt + Left Arrow -> recoger selección.
+Alt + Clic -> añadir cursor.
+Ctrl + Alt + arriba/abajo -> añadir cursor encima o debajo.
+Ctrl + U -> deshacer el último cursor.
+Por último, el atajo de teclado «Ctrl + `» nos permite mostrar el terminal integrado dentro del programa, muy útil en las labores de depuración.
+
+Algunos de los atajos de teclado que acabamos de ver pueden cambiar en función del sistema operativo que utilicemos. En nuestro caso hemos puesto los atajos de teclado para Windows, pero si usamos macOS o Linux, aunque muchos coincidirán, otros (como Ctrl + F4, por ejemplo) estarán asignados a otras teclas.

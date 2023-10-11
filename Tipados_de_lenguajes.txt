@@ -1,0 +1,7 @@
+¿Qué son los tipados?
+Tenemos tipos de datos primitivos (arreglos, números, strings, booleanos, etc). La manera en que un lenguaje trata a los tipos es el tipado. Tenemos 4 clasificaciones:
+
+Estático: Son los que levantan los errores de tipo en tiempo de compilación. Esto es, si al estar programando tenemos un error de tipo, entonces el lenguaje nos avisa antes de que se ejecute (mientras compila). 😯 (C/C++)
+Dinámico: Opuesto al estático, levantan los errores de tipo en el tiempo de compilación, es decir, el error sale mientras el programa se ejecuta en esa línea donde está el error. 🛑 (Python)
+Fuerte: Son los que tratan con mas severidad a los datos de diferente tipo. 😠 (Python)
+Débil: Son mas relajados con datos de diferente tipo. 🦜 (Javascript)

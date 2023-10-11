@@ -1,0 +1,1 @@
+En realidad, en Python existen dos clases para representar conjuntos: set y frozenset. La principal diferencia es que set es mutable, por lo que después de ser creado, se pueden añadir y/o eliminar elementos del conjunto, como veremos en secciones posteriores. Por su parte, frozenset es inmutable y su contenido no puede ser modificado una vez que ha sido inicializado.
