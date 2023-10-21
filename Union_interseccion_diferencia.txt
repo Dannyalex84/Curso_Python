@@ -1,0 +1,8 @@
+Operaciones con Sets (Unión, Intersección y Diferencia)
+Unión: Es el resultado de combinar todos los elementos de los conjuntos. En caso de haber elementos repetidos, estos se eliminan. Se utiliza el operador “pipe” ( | ).
+
+Intersección: Esta operación nos da como resultados los elementos en común de los conjuntos. Utilizamos el operador “ampersand” ( & ).
+
+Diferencia: Nos entrega como resultado el set obtenido de eliminar de un primer set todos los elementos que comunes o que se repiten del segundo set. Se usa el operador “menos” ( - ).
+
+Diferencia Simétrica: Es la operación opuesta a la Intersección, es decir, obtenemos todos los elementos de ambos sets, menos los que se comparten. El operador “caret” ( ^ ) es el utilizado para esta operación.
