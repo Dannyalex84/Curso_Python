@@ -1,19 +1,21 @@
 import random 
 
 
-def run():
-    numero_aleatorio = random.randint(1, 100)
-    numero_elegido = int(input("Elige un número del 1 al 100: "))
-    while numero_elegido != numero_aleatorio:
-        if numero_elegido < numero_aleatorio:
-            print("Busca un número más grande")
-        else:
-            print("Busca un número más pequeño")
-        numero_elegido = int(input("Elige otro número: "))
-    print("¡Ganaste!")
+print("Hola, esto es el archivo 01")
 
+print("Hola soy Nicolas y tengo 12 anos")
 
+# operaciones...
 
-if __name__ == "__main__":
-    run()
+print(12 + 5)
+print(10 - 5)
+print(2 * 3)
+print(8 / 2)
+
+# Esto es un comentario
+"""
+varias
+lineas
+otra
+"""
 
