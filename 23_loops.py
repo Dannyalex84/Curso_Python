@@ -11,3 +11,11 @@ for row in matriz:
     print(row)
     for column in row:
         print(column)
+        
+elements = ['Water', 'Fire', 'Earth', 'Air']
+for element in elements:
+    print(element)
+    
+city = 'NY'
+if city == 'NY':
+    print('Welcome to New York')
