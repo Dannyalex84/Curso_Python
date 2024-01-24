@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
+<<<<<<< HEAD
         "asar"
     ],
     "spellchecker.ignoreWordsList": [
@@ -9,5 +10,77 @@
         "archivo",
         "linea",
         "otra"
+=======
+<<<<<<< HEAD
+        "agregar",
+        "años",
+        "aqui",
+        "archivo",
+        "cada",
+        "cambio",
+        "capturar",
+        "comentario",
+        "correspondiente",
+        "Cual",
+        "dentro",
+        "enero",
+        "Enero",
+        "esto",
+        "febrero",
+        "Febrero",
+        "hallar",
+        "Hola",
+        "importa",
+        "imprime",
+        "ingrese",
+        "lienas",
+        "lineas",
+        "marzo",
+        "Marzo",
+        "meses",
+        "nombre",
+        "numero",
+        "operaciones",
+        "otra",
+        "permite",
+        "practico",
+        "presupuesto",
+        "puede",
+        "realizar",
+        "separados",
+        "suma",
+        "tendre",
+        "tengo",
+        "usando",
+        "valores",
+        "varias"
+=======
+        "aleatorio",
+        "Busca",
+        "Cuántos",
+        "diccionario",
+        "dolar",
+        "dolares",
+        "edad",
+        "elegido",
+        "Elige",
+        "Eres",
+        "Ganaste",
+        "habitantes",
+        "igual",
+        "llave",
+        "menor",
+        "numero",
+        "número",
+        "otro",
+        "pais",
+        "paises",
+        "pequeño",
+        "poblacion",
+        "tiene",
+        "tienes",
+        "Tienes"
+>>>>>>> 283707569257199a9541efb5b25b41a108c57945
+>>>>>>> fc1a69c50a9cd3264c4a8f2a735cb3a80e947fa5
     ]
 }
