@@ -1,0 +1,80 @@
+A mi me gusta bastante la definicion que nos da Al Sweigart en su libro 
+“How to automate the boring stuff with Python” se las comparto:
+
+In plain English, an assert statement says, 
+“I assert that this condition holds true, and if not, there is a bug somewhere in the program.” 
+Unlike exceptions, your code should not handle assert statements with try and except; 
+if an assert fails, your program should crash. By failing fast like this, 
+you shorten the time between the original cause of the bug and when you first notice the bug. 
+This will reduce the amount of code you will have to check before finding the code that’s causing
+the bug. Assertions are for programmer errors, not user errors. 
+For errors that can be recovered from (such as a file not being found or the user enter-ing invalid data),
+raise an exception instead of detecting it with an assertstatement.
+
+
+En Python, existen tres tipos de estructuras de datos muy comunes: listas (lists), tuplas (tuples) y conjuntos (sets). Cada una de estas estructuras tiene sus propias características y se utilizan en diferentes situaciones según las necesidades específicas del programa. A continuación, se explica brevemente la diferencia entre cada una de ellas:
+
+Listas (Lists):
+
+Las listas son estructuras de datos mutables, lo que significa que se pueden modificar después de su creación.
+Se definen utilizando corchetes ([]) y los elementos se separan por comas.
+Pueden contener elementos de diferentes tipos de datos (números, cadenas, booleanos, etc.) y también pueden contener elementos duplicados.
+Las listas mantienen el orden de los elementos, lo que significa que los elementos se almacenan y se acceden en el mismo orden en que se agregaron.
+Se pueden realizar operaciones como agregar, eliminar, modificar elementos y acceder a elementos por su índice.
+
+Tuplas (Tuples):
+
+Las tuplas son estructuras de datos inmutables, lo que significa que no se pueden modificar después de su creación.
+Se definen utilizando paréntesis (()) y los elementos se separan por comas.
+Pueden contener elementos de diferentes tipos de datos y también pueden contener elementos duplicados.
+Las tuplas mantienen el orden de los elementos, al igual que las listas.
+Al ser inmutables, las tuplas son útiles cuando se necesita garantizar que los datos no cambien (por ejemplo, para representar una coordenada geográfica).
+Se pueden acceder a los elementos de una tupla por su índice al igual que en las listas.
+
+Conjuntos (Sets):
+
+Los conjuntos son estructuras de datos no ordenadas y sin elementos duplicados.
+Se definen utilizando llaves ({}) o la función set().
+Pueden contener elementos de diferentes tipos de datos, pero no pueden contener elementos duplicados.
+Los conjuntos no mantienen un orden específico de los elementos, por lo que no se puede acceder a los elementos mediante índices.
+Los conjuntos son útiles cuando se necesita verificar rápidamente la existencia de un elemento o cuando se requiere realizar operaciones matemáticas de conjuntos, como unión, intersección o diferencia.
+En resumen, las listas son estructuras de datos mutables y ordenadas, las tuplas son estructuras de datos inmutables y ordenadas, y los conjuntos son estructuras de datos no ordenadas y sin elementos duplicados. La elección de la estructura de datos adecuada depende de las necesidades del programa y de si se requiere o no la capacidad de modificar los elementos, mantener un orden específico o garantizar la ausencia de duplicados.
+
+ITERABLES Un iterable se define como el objeto que contiene un número contable con valores y este al tener un valor puede recorrer uno a uno los elementos que la contienen como una estructura de datos y operar con ellos, pero a la vez se rigen bajo la instrucción que se le es dada, con lo cual son dependientes de la instrucción a recibir.
+
+ERRORES O EXCEPCIONES INTEGRADAS EN PYTHON En la siguiente tabla podemos encontrar los errores o excepciones que se presentan en Python.
+
+Exception	Description
+ArithmeticError	Se genera cuando se produce un error en los cálculos numéricos
+AssertionError	Se genera cuando falla una declaración de afirmación
+AttributeError	Se genera cuando falla la asignación o la referencia de atributo
+Exception	Clase base para todas las excepciones
+EOFError	Se genera cuando el método input() alcanza una condición de "fin de archivo" (EOF)
+FloatingPointError	Se genera cuando falla un cálculo de punto flotante
+GeneratorExit	Se genera cuando se cierra un generador (con el método close())
+ImportError	Se genera cuando no existe un módulo importado
+IndentationError	Se genera cuando la sangría no es correcta
+IndexError	Se genera cuando no existe un índice de una secuencia
+KeyError	Se genera cuando una clave no existe en un diccionario
+KeyboardInterrupt	Se genera cuando el usuario presiona Ctrl+c, Ctrl+z o Eliminar
+LookupError	Se genera cuando no se pueden encontrar los errores generados
+MemoryError	Se genera cuando un programa se queda sin memoria
+NameError	Se genera cuando una variable no existe
+NotImplementedError	Se genera cuando un método abstracto requiere una clase heredada para anular el método
+OSError	Se genera cuando una operación relacionada con el sistema provoca un error
+OverflowError	Se genera cuando el resultado de un cálculo numérico es demasiado grande
+ReferenceError	Se genera cuando no existe un objeto de referencia débil
+RuntimeError	Se genera cuando ocurre un error que no pertenece a ninguna expectativa específica
+StopIteration	Se genera cuando el método next() de un iterador no tiene más valores
+SyntaxError	Se genera cuando se produce un error de sintaxis
+TabError	Se genera cuando la sangría consta de tabulaciones o espacios
+SystemError	Se genera cuando se produce un error del sistema
+SystemExit	Se genera cuando se llama a la función sys.exit()
+TypeError	Se genera cuando se combinan dos tipos diferentes
+UnboundLocalError	Se genera cuando se hace referencia a una variable local antes de la asignación
+UnicodeError	Se genera cuando se produce un problema Unicode
+UnicodeEncodeError	Se genera cuando se produce un problema de codificación Unicode
+UnicodeDecodeError	Se genera cuando se produce un problema de decodificación Unicode
+UnicodeTranslateError	Se genera cuando se produce un problema de traducción Unicode
+ValueError	Se genera cuando hay un valor incorrecto en un tipo de datos especificado
+ZeroDivisionError	Se genera cuando el segundo operador en una división es cero
