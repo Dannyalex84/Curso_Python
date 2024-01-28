@@ -19,3 +19,7 @@ set_numbers = set(numbers)
 print(set_numbers)
 unique_numbers = list(set_numbers)
 print(unique_numbers)
+
+a ={1,2}
+b ={2,3}
+print(a - b)
